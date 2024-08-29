@@ -1,0 +1,191 @@
+.cardContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.cardContainer > h1 {
+  text-align: center;
+  margin: 1.5em;
+}
+
+.cardContainer > p {
+  text-align: center;
+  padding: 1em;
+}
+
+.carousel {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+
+.imagesCards {
+  margin: auto;
+  width: 80%;
+  height: 70%;
+  max-height: 25em;
+  border-radius: 10px;
+  border: solid 1px #d2b071;
+  object-fit: cover;
+}
+
+.imagesSwap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+  margin-bottom: 5%;
+}
+
+.arrow {
+  width: 5%;
+  cursor: pointer;
+}
+
+.carouselDot {
+  width: 0.8em;
+  height: 0.8em;
+  background-color: black;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.carouselDot.dark {
+  background-color: #d2b071;
+}
+
+.carouselDot.active {
+  background-color: #d2b071;
+}
+.carouselDot.dark.active {
+  background-color: black;
+}
+
+.lineTitle {
+  display: flex;
+  align-items: start;
+  margin: 1em;
+}
+.technologiesCard {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2.5em;
+}
+
+.technologieItem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.2em;
+}
+
+.technologieItem > img {
+  width: 2.5em;
+  height: 2.5em;
+}
+.technologieItem > p {
+  font-size: 18px;
+}
+
+.extraInfo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 2.5%;
+}
+
+.roleAndDate {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.roleList {
+  display: flex;
+  flex-direction: column;
+}
+
+.projectLink {
+  display: inline-block;
+  text-decoration: none;
+  margin: auto;
+  color: inherit;
+  background-color: #d2b071;
+  border-radius: 10px;
+  padding: 0.5em;
+}
+@media screen and (min-width: 1440px) {
+  .cardContainer > h1 {
+    text-align: center;
+    margin: 0% 5% 5% 5%;
+  }
+  .imagesCards {
+    margin: auto;
+    width: 80%;
+    height: 70%;
+    max-height: 35em;
+    border-radius: 10px;
+    border: solid 1px #d2b071;
+    object-fit: cover;
+  }
+  .imagesSwap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    margin-bottom: 5%;
+  }
+
+  .arrow {
+    width: 2.5%;
+    cursor: pointer;
+  }
+
+  .carouselDot {
+    width: 0.6em;
+    height: 0.6em;
+    background-color: black;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  .technologieItem {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.2em;
+  }
+
+  .technologiesCard {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5em;
+  }
+  .technologieItem > img {
+    width: 3.5em;
+    height: 3.5em;
+  }
+
+  .extraInfo {
+    margin: 5%;
+  }
+  .projectLink {
+    display: inline-block;
+    text-decoration: none;
+    margin: auto;
+    background-color: #d2b071;
+    border-radius: 15px;
+    padding: 1em;
+    font-size: 1.5em;
+  }
+}

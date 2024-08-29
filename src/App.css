@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Maison De Artisan Free Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: url("/assets/fonts/MaisonDeArtisanFree-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Kane Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: url("/assets/fonts/Kane-lgarw.woff") format("woff");
+}
+
+#root {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url(/assets/bgwhite.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+body.dark {
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.15),
+      rgba(255, 255, 255, 0.329)
+    ),
+    url(/assets/bgdark.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+h1,
+h2 {
+  font-family: "Kane Regular", sans-serif;
+}
+
+a,
+p,
+input,
+textarea {
+  font-family: "Maison De Artisan Free Regular", sans-serif;
+}
+
+body.dark h1,
+body.dark h2,
+body.dark p {
+  color: #d2b071;
+}
+
+@media screen and (min-width: 1440px) {
+  h1 {
+    font-size: 2.5em;
+  }
+  h2 {
+    font-size: 2em;
+  }
+
+  p {
+    font-size: 1.5em;
+  }
+  ul {
+    font-size: 1.2em;
+  }
+}

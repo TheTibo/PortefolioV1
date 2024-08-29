@@ -64,7 +64,7 @@ textarea {
 body.dark h1,
 body.dark h2,
 body.dark p {
-  color: #d2b071;
+  color: white;
 }
 
 @media screen and (min-width: 1440px) {

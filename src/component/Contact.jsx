@@ -62,7 +62,6 @@ export default function Contact() {
         setSending(false);
       })
       .catch((err) => {
-        console.error("EmailJS error:", err);
         alert("Failed to send message.");
         setSending(false);
       });

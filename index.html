@@ -4,11 +4,19 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/x-icon" href="public/assets/ZT.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <meta
       http-equiv="Content-Security-Policy"
-      content="default-src 'self'; script-src 'self' https://apis.google.com https://www.google.com https://www.gstatic.com; frame-src https://www.google.com; style-src 'self' 'unsafe-inline'; img-src 'self' data:;"
+      content="
+      default-src 'self';
+      script-src 'self' https://apis.google.com https://www.google.com https://www.gstatic.com;
+      connect-src 'self' https://api.emailjs.com;
+      style-src 'self' 'unsafe-inline';
+      img-src 'self' data:;
+      frame-src https://www.google.com;
+      child-src https://www.google.com;
+    "
     />
-    <title>Zhou Thibault</title>
     <title>Zhou Thibault</title>
   </head>
   <body>

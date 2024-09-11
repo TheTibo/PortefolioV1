@@ -12,7 +12,10 @@ export default function About() {
       <h1>{data.name}</h1>
       <div className="pictureAndDescription">
         <img src={data.picture} className="profilPic" />
-        <p>{data.description}</p>
+        <div className="desc">
+          <p>{data.description}</p>
+          <p>{data.description2}</p>
+        </div>
       </div>
       <h2>My Skills</h2>
       <div className="skillsContainer">

@@ -3,7 +3,10 @@ const dataMe = {
   name: "Thibault",
   picture: "/assets/me.jpg",
   description:
-    "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos omnis error, repellat obcaecati numquam suscipit quisquam, eaque alias neque, nam similique explicabo eius voluptatum officiis quasi! Nemo placeat omnis sapiente. ",
+    "Hi, I'm Thibault Zhou, and I'm a junior web developer. I'm based in France.",
+  description2:
+    "Whether for front-end or back-end, I enjoy coding intuitive interfaces and dynamic applications.",
+
   technologies: [
     {
       name: "HTML5",

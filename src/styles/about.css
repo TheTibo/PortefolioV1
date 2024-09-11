@@ -20,6 +20,14 @@
   border: solid 1px #d2b071;
 }
 
+.desc {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 2em;
+  width: 20em;
+}
+
 .aboutContainer h2 {
   text-align: center;
 }
@@ -82,6 +90,10 @@
   .profilPic {
     width: 30%;
     height: 30%;
+  }
+
+  .desc {
+    width: 40em;
   }
 
   .skillsContainer {

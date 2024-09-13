@@ -35,7 +35,7 @@ const dataProjects = [
     ],
     role: ["Developer, ", "Designer"],
     date: "Dec.2023",
-    link: "https://space-traveler-project.netlify.app/",
+    link: "https://github.com/TheTibo/Space-Traveler",
   },
   {
     id: 2,
